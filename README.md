@@ -6,7 +6,7 @@ Either clone the repo or download the setup.sh file.
 
 ## Usage
 - To run the script
-```./setup.sh```
+`./setup.sh`
 
 - To add a new extension
 ```./setup.sh -a <EXTENSION-NAME>```
