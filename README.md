@@ -5,18 +5,18 @@ This code was originally designed to enable University of St Andrews to have the
 Either clone the repo or download the setup.sh file.
 
 ## Usage
-- To run the script
-`./setup.sh`
+- To run the script\
+`./setup.sh`\
 
-- To add a new extension
-```./setup.sh -a <EXTENSION-NAME>```
-Example:
-```./setup.sh -a github.copilot```
+- To add a new extension\
+  ./setup.sh -a <EXTENSION-NAME>`\
+Example:\
+`./setup.sh -a github.copilot`\
 
-- To remove an extension
-```./setup.sh -r <EXTENSION-NAME>```
-Example:
-```./setup.sh -r github.copilot```
+- To remove an extension\
+`./setup.sh -r <EXTENSION-NAME>`\
+Example:\
+`./setup.sh -r github.copilot`\
 
 ## Running on Launch
 1. Task Scheduler (Windows)
@@ -29,18 +29,18 @@ Example:
 
 2. .bash_profile (Linux, macOS)
 - Edit your .bash_profile file in your home directory:
-```nano ~/.bash_profile```
+`nano ~/.bash_profile`
 - Add the following line to execute your script at login:
-```/path/to/your/setup.sh```
+`/path/to/your/setup.sh`
 - Save the file and exit the editor
 
 3. .bashrc (Linux)
 - Edit your .bashrc file in your home directory (if .bash_profile doesn't exist)
-```nano ~/.bashrc```
+`nano ~/.bashrc`
 - Add the following line to execute your script at login:
-```/path/to/your/setup.sh```
+`/path/to/your/setup.sh`
 - Save the file and exit the editor
 
-### Notes
+## Notes
 - Ensure your script is executable using `chmod +x /path/to/your/script.sh`.
 - Replace `/path/to/your/setup.sh` with the actual path to your script file.
