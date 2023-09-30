@@ -4,7 +4,21 @@ This code was originally designed to enable University of St Andrews to have the
 ## Setup
 Either clone the repo or download the setup.sh file.
 
-### Running on Launch
+## Usage
+- To run the script
+```./setup.sh```
+
+- To add a new extension
+```./setup.sh -a <EXTENSION-NAME>```
+Example:
+```./setup.sh -a github.copilot```
+
+- To remove an extension
+```./setup.sh -r <EXTENSION-NAME>```
+Example:
+```./setup.sh -r github.copilot```
+
+## Running on Launch
 1. Task Scheduler (Windows)
 - Open Task Scheduler.
 - Create a new task and configure it to run your script at logon:
@@ -27,6 +41,6 @@ Either clone the repo or download the setup.sh file.
 ```/path/to/your/setup.sh```
 - Save the file and exit the editor
 
-#### Notes
+### Notes
 - Ensure your script is executable using `chmod +x /path/to/your/script.sh`.
 - Replace `/path/to/your/setup.sh` with the actual path to your script file.
