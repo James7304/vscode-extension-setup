@@ -5,18 +5,28 @@ This code was originally designed to enable University of St Andrews to have the
 Either clone the repo or download the setup.sh file.
 
 ## Usage
-- To run the script\
-`./setup.sh`\
+- To run the script
+```
+./setup.sh
+```
 
-- To add a new extension\
-  ./setup.sh -a <EXTENSION-NAME>`\
-Example:\
-`./setup.sh -a github.copilot`\
+- To add a new extension
+```
+./setup.sh -a <EXTENSION-NAME>
+```
+Example:
+```
+./setup.sh -a github.copilot
+```
 
-- To remove an extension\
-`./setup.sh -r <EXTENSION-NAME>`\
-Example:\
-`./setup.sh -r github.copilot`\
+- To remove an extension
+```
+./setup.sh -r <EXTENSION-NAME>
+```
+Example:
+```
+./setup.sh -r github.copilot
+```
 
 ## Running on Launch
 1. Task Scheduler (Windows)
